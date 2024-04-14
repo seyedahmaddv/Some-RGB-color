@@ -27,3 +27,7 @@ input[type="number"] {
     width: 50px;
     padding: 5px;
 }
+.color-picker input[type="range"] {
+    width: 200px;
+    margin: 10px 0;
+}
