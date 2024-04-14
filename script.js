@@ -1,18 +1,18 @@
-const redInput = document.getElementById('red');
-const greenInput = document.getElementById('green');
-const blueInput = document.getElementById('blue');
+const redSlider = document.getElementById('red');
+const greenSlider = document.getElementById('green');
+const blueSlider = document.getElementById('blue');
 const colorBox = document.querySelector('.color-box');
 
 function updateColor() {
-    const red = parseInt(redInput.value);
-    const green = parseInt(greenInput.value);
-    const blue = parseInt(blueInput.value);
+    const red = redSlider.value;
+    const green = greenSlider.value;
+    const blue = blueSlider.value;
 
     colorBox.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
 }
 
-redInput.addEventListener('input', updateColor);
-greenInput.addEventListener('input', updateColor);
-blueInput.addEventListener('input', updateColor);
+redSlider.addEventListener('input', updateColor);
+greenSlider.addEventListener('input', updateColor);
+blueSlider.addEventListener('input', updateColor);
 
 updateColor(); // Set initial color
