@@ -1,17 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto; /* برای مرکز کردن عمودی */
-}
+
 
 
 .color-picker {
