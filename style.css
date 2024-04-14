@@ -9,7 +9,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto; /* برای مرکز کردن عمودی */
 }
+
 
 .color-picker {
     display: flex;
